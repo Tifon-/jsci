@@ -1,4 +1,3 @@
-FROM node:8
+FROM node:4.8.0
 
-RUN npm install -g bower 
 RUN npm install -g node-qunit-phantomjs
